@@ -1,0 +1,7 @@
+.add-button {
+    background: url("../../images/plus-button.svg") no-repeat center;
+    background-size: 16px;
+    padding: 25px 132px;
+
+    border: 2px solid #ffffff;
+}

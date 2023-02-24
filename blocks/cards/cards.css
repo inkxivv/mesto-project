@@ -1,0 +1,8 @@
+.cards {
+    display: grid;
+    gap: 16px;
+    align-content: center;
+    max-width: 282px;
+
+    margin: 0 auto;
+}

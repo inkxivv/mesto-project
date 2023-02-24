@@ -1,0 +1,6 @@
+.edit-button {
+    background: url("../../images/edit-button.svg") no-repeat center;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ffffff;
+}
