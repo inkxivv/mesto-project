@@ -9,63 +9,79 @@
     <title>Mesto</title>
 </head>
 <body class="root">
-    <header class="header">
-        <img src="./images/logo-white.svg" alt="Логотип Mesto." class="header__logo">
-    </header>
-    <main class="main">
-        <section class="profile">
-            <img src="./images/avatar.jpg" alt="Аватарка." class="profile__picture">
+<section class="popup popup_opened">
+    <div class="popup__body-container">
+        <button class="popup__close-button"></button>
+        <article class="popup__body">
+            <p class="popup__title">Редактировать профиль</p>
+            <input type="text" class="popup__input" value="Жак-Ив Кусто">
+            <input type="text" class="popup__input" value="Исследователь океана">
+            <button class="popup__save-button">Сохранить</button>
+        </article>
+    </div>
+</section>
+<header class="header">
+    <img class="header__logo" src="./images/logo-white.svg" alt=" ">
+</header>
+<main class="main">
+    <section class="profile">
+        <img class="profile__picture" src="./images/avatar.jpg">
+        <div class="profile__description-container">
             <div class="profile__title-container">
                 <h1 class="profile__title">Жак-Ив Кусто</h1>
-                <button class="edit-button"></button>
+                <button class="profile__edit-button"></button>
             </div>
             <p class="profile__subtitle">Исследователь океана</p>
-            <button class="add-button"></button>
-        </section>
-        <section class="cards">
-            <article class="card">
-                <img src="./images/karachaevsk.jpg" alt="" class="card__picture">
-                <div class="card__title-container">
-                    <h2 class="card__title">Карачаево-Черкесия</h2>
-                    <button class="like-button"></button>
-                </div>
-            </article>
-            <article class="card">
-                <img src="./images/karachaevsk.jpg" alt="" class="card__picture">
-                <div class="card__title-container">
-                    <h2 class="card__title">Карачаево-Черкесия</h2>
-                    <button class="like-button"></button>
-                </div>
-            </article>
-            <article class="card">
-                <img src="./images/karachaevsk.jpg" alt="" class="card__picture">
-                <div class="card__title-container">
-                    <h2 class="card__title">Карачаево-Черкесия</h2>
-                    <button class="like-button"></button>
-                </div>
-            </article>
-            <article class="card">
-                <img src="./images/karachaevsk.jpg" alt="" class="card__picture">
-                <div class="card__title-container">
-                    <h2 class="card__title">Карачаево-Черкесия</h2>
-                    <button class="like-button"></button>
-                </div>
-            </article>            <article class="card">
-            <img src="./images/karachaevsk.jpg" alt="" class="card__picture">
+        </div>
+        <button class="profile__add-button"></button>
+    </section>
+    <section class="cards">
+        <article class="card">
+            <img src="./images/karachaevsk.jpg" alt="Руины древнего здания на фоне гор, заросших деревьями." class="card__picture">
             <div class="card__title-container">
-                <h2 class="card__title">Карачаево-Черкесия</h2>
-                <button class="like-button"></button>
+                <h2 class="card__title">Карачаево-Черкессия</h2>
+                <button class="card__like-button"></button>
             </div>
         </article>
-            <article class="card">
-                <img src="./images/karachaevsk.jpg" alt="" class="card__picture">
-                <div class="card__title-container">
-                    <h2 class="card__title">Карачаево-Черкесия</h2>
-                    <button class="like-button"></button>
-                </div>
-            </article>
-        </section>
-    </main>
-    <footer class="footer"></footer>
+        <article class="card">
+            <img src="./images/elbrus.jpg" alt="Вид на вершину горы Эльбрус на закате." class="card__picture">
+            <div class="card__title-container">
+                <h2 class="card__title">Гора Эльбрус</h2>
+                <button class="card__like-button"></button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="./images/dombai.jpg" alt="Заснеженная вершина скалы за лесом." class="card__picture">
+            <div class="card__title-container">
+                <h2 class="card__title">Домбай</h2>
+                <button class="card__like-button"></button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="./images/kamchatka.jpg" alt="Вершина вулкана на заднем плане, на переднем плане размытые листья." class="card__picture">
+            <div class="card__title-container">
+                <h2 class="card__title">Камчатка</h2>
+                <button class="card__like-button"></button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="./images/krasnaya-polyana.jpg" alt="Вид на частные дома на переднем плане, и горы, покрытые деревьями, на заднем." class="card__picture">
+            <div class="card__title-container">
+                <h2 class="card__title">Красная Поляна</h2>
+                <button class="card__like-button"></button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="./images/altai.jpg" alt="Лазурная горная река с каменистыми берегами." class="card__picture">
+            <div class="card__title-container">
+                <h2 class="card__title">Алтай</h2>
+                <button class="card__like-button"></button>
+            </div>
+        </article>
+    </section>
+</main>
+<footer class="footer">
+    <span>&#169; 2020 Mesto Russia</span>
+</footer>
 </body>
 </html>
