@@ -7,7 +7,7 @@
     height: 50px;
     padding: 0;
 
-    transition: 400ms;
+    transition: opacity 400ms;
 }
 
 .profile__add-button:hover {

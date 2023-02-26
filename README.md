@@ -1,17 +1,15 @@
 # Проект: Место
+**Второй проект второго спринта в Яндекс Практикум.**
 
-### Обзор
+Статичный одностраничный сайт с адаптивом под десктоп и мобильные устройства.
+Выполнен с использованием методологии БЭМ и файловой структуры Nested.
 
-* Figma
-* Картинки
+![Изображение сайта.](https://github.com/inkxivv/mesto-project/blob/main/images/screenshots/mainpage.jpg)
+![Изображение сайта.](https://github.com/inkxivv/mesto-project/blob/main/images/screenshots/mobilepage.jpg)
 
-**Figma**
+**Ссылки**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+* [Ссылка на макет в Figma.](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+* [Ссылка на Github Pages.](https://inkxivv.github.io/mesto-project/)
+* [Ссылка на автора.](https://github.com/inkxivv)
 
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!

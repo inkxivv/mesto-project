@@ -3,16 +3,17 @@
     font-size: 14px;
     line-height: 17px;
     text-align: center;
+    word-break: break-all;
 
     color: #fff;
     background-color: #000;
     border: none;
 
-    width: 238px;
-    height: 46px;
-    margin: 45px auto 25px;
+    min-width: 238px;
+    margin: 45px 22px 25px;
+    padding: 15px;
 
-    transition: 400ms;
+    transition: opacity 400ms;
 }
 
 .popup__save-button:hover {
@@ -21,6 +22,11 @@
 
 @media screen and (min-width: 670px){
     .popup__save-button {
-        width: 358px;
+        font-size: 18px;
+        line-height: 22px;
+
+        min-width: 358px;
+        margin: 48px 36px 37px;
+        padding: 14px;
     }
 }

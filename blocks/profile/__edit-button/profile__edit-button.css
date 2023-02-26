@@ -6,7 +6,7 @@
     width: 17px;
     height: 17px;
 
-    transition: 400ms;
+    transition: opacity 400ms;
 }
 
 .profile__edit-button:hover {
