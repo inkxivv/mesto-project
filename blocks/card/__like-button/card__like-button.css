@@ -6,10 +6,12 @@
     height: 19px;
 
     transition: 400ms;
+
+    cursor: pointer;
 }
 
-.card__like-button:hover:not(:active) {
-    opacity: 0.4;
+.card__like-button:hover {
+    opacity: 0.5;
 }
 
 .card__like-button:active {

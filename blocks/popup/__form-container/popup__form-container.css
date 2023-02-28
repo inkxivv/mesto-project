@@ -1,13 +1,12 @@
-.popup__body-container {
+.popup__form-container {
     display: flex;
     flex-direction: column;
-
-    position: absolute;
-    top: calc(50% - 380px);
+    justify-content: center;
+    align-items: flex-start;
 }
 
 @media screen and  (min-width: 670px) {
-    .popup__body-container {
+    .popup__form-container {
         min-width: 470px;
     }
 }
